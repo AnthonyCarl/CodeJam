@@ -42,6 +42,7 @@ namespace AllYourBase
         }
 
         const int MinNumberBase = 2;
+        
         public static BigInteger GetMinimumDenaryValue(string valueWithUnknownBase)
         {
             var digitMap = new Dictionary<char, int?>();
